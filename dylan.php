@@ -13,7 +13,7 @@ class Dylan {
 	public $bio_data = array(
 		"email" => "dylan@deepdivedylan.com",
 		"phone" => "+1 505.715.3826",
-		"website" => "http://www.deepdivedylan.com/",
+		"website" => "http://www.deepdivedylan.com",
 		"stars" => array("Instructor", "Full Stack Developer", "Scrum Master", "Systems Administrator"),
 		"summary" => array("points" => array(
 			"Passionate and dedicated instructor who pushes his students to the limits of their experience",
@@ -92,14 +92,14 @@ class Dylan {
 			array(
 				"degree" => "PhD (pursued)",
 				"major" => "Computer Science",
-				"institution" => "Missouri University of Science & Technology",
+				"institution" => "Missouri University of Science and Technology",
 				"graduation_year" => 2011,
 				"gpa" => 3.5
 			),
 			array(
 				"degree" => "Master of Science",
 				"major" => "Computer Science",
-				"institution" => "Missouri University of Science & Technology",
+				"institution" => "Missouri University of Science and Technology",
 				"graduation_year" => 2008,
 				"gpa" => 3.5
 			),
@@ -238,7 +238,7 @@ class Dylan {
 		),
 		array(
 			"title" => "GANN Research Fellow",
-			"organisation" => "Missouri University of Science & Technology",
+			"organisation" => "Missouri University of Science and Technology",
 			"location" => "Rolla, MO",
 			"from" => "January 2008",
 			"to" => "May 2008",
@@ -262,7 +262,7 @@ class Dylan {
 		),
 		array(
 			"title" => "Graduate Teaching Assistant",
-			"organisation" => "Missouri University of Science & Technology",
+			"organisation" => "Missouri University of Science and Technology",
 			"location" => "Rolla, MO",
 			"from" => "August 2006",
 			"to" => "January 2008",
@@ -383,11 +383,11 @@ class Dylan {
 		"items" => array(
 			array(
 				"title" => "Outlier Detection in Wireless Sensor Networks",
-				"organisation" => "Missouri University of Science & Technology",
+				"organisation" => "Missouri University of Science and Technology",
 				"from" => "May 2008",
 				"to" => "May 2011",
 				"points" => array(
-					"Detecting & reacting to outliers in wireless sensor networks",
+					"Detecting and reacting to outliers in wireless sensor networks",
 					"Maximized the chance of finding an optimal solution while minimizing the network traffic",
 					"data-agnostic framework applicable to non-Gaussian data sets"
 				)
