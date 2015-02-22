@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="jsonresume">
+  <component name="PublishConfigData" serverName="jsonresume" uploadOnCheckin="5f65b3c3-8cf6-4dd9-8209-bcbdb1961468">
     <serverData>
       <paths name="jsonresume">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="jsonresume" />
   </component>
 </project>
