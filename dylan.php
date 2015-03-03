@@ -186,7 +186,7 @@ class Dylan {
 			"to" => "October 2013",
 			"details" => array(
 				"Maintained and supported an Apache Tomcat-based n-tiered warehouse management system (WMS) in Java. This included receiving and intrepeting user requests, writing solutions, and executing unit and acceptance tests.",
-				"Conducted integrations with the WMS using ANSI X12 Electronic Data Interchange (EDI). After receiving EDI speciﬁcations, all documents were unit and acceptance tested. This included expanding the existing system's functionality to support additional documents not previously supported.",
+				"Conducted integrations with the WMS using ANSI X12 Electronic Data Interchange (EDI). After receiving EDI specifications, all documents were unit and acceptance tested. This included expanding the existing system's functionality to support additional documents not previously supported.",
 				"Conducted integrations with the WMS using Magento. Clients with existing Magento stores used a custom plugin to integrate to the WMS. Full unit and system tests were conducted before live integrations were allowed. Any problems found in the plugin were addressed and fixed.",
 				"Migrated multiple codebases from Subversion to git, including importing historical information and training the team to assist in the transition from Subversion to git.",
 				"Involved in rewriting and reworking the WMS from the Tomcat platform to a JBOSS based platform using Spring and Hibernate. The new platforms includes extended support for Java EE interfaces and unit testing with higher coverage compared to the Tomcat based platform.",
