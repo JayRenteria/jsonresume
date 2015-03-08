@@ -123,5 +123,5 @@ class Jay {
 
 header("Content-type: text/json");
 $jay = new Jay();
-echo json_encode($dylan, JSON_PRETTY_PRINT);
+echo json_encode($jay, JSON_PRETTY_PRINT);
 ?>
