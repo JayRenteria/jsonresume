@@ -11,7 +11,6 @@ class Rochelle {
 	public $twitter_id = "rochelleUXUI";
 
 	public $bio_data = array(
-		"email" => "rochelle.a.lewis@gmail.com",
 		"website" => "http://www.rochellelewis.com",
 		"stars" => array("Front End Web Developer", "Web Designer", "Assistant Instructor"),
 		"summary" => array("points" => array(
@@ -37,7 +36,7 @@ class Rochelle {
 			)
 		),
 		array(
-			"type" => "Professional Keywords",
+			"type" => "Professional Interests",
 			"items" => array(
 				array("name" => "User eXperience Design"),
 				array("name" => "User Interface Design"),
@@ -66,29 +65,19 @@ class Rochelle {
 				"degree" => "Certificate of Completion",
 				"major" => "Web Development",
 				"institution" => "Udacity",
-				"years_attended" => "2004",
-				"gpa" => null,
-				"details" => array(
-					"Additional courses include: Git and GitHub, Object Oriented JavaScript, Python, PHP, AngularJS."
-				)
+				"graduation_year" => "2004"
 			),
 			array(
 				"degree" => "Bachelor of Science (pursued)",
 				"major" => "Imaging and Photographic Technology",
 				"institution" => "Rochester Institute of Technology",
-				"years_attended" => "2003-2005",
-				"gpa" => null,
-				"details" => array(
-					"Imaging and Photographic Technology, Photojournalism, Commercial and Artistic Photography."
-				)
+				"graduation_year" => "2005"
 			),
 			array(
 				"degree" => "Associates of Arts",
 				"major" => "Photography",
 				"institution" => "San Diego City College",
-				"years_attended" => "2000-2002",
-				"gpa" => null,
-				"details" => null
+				"graduation_year" => "2002"
 			)
 		)
 	);
@@ -163,20 +152,34 @@ class Rochelle {
 	));
 
 	public $projects = array(
-		array(
-			"title" => "City of Albuquerque Official Website",
-			"dates" => "October 2011 - May 2012",
-			"details" => "Loading, formatting and transferring existing content over to the new City of Albuquerque Official Website, designed and developed by Real Time Solutions."
+		"items" => array(
+			array(
+				"title" => "City of Albuquerque Official Website",
+				"organisation" => "Real Time Solutions",
+				"from" => "October 2011",
+				"to" => "May 2012",
+				"points" => array(
+					"Loading, formatting and transferring existing content over to the new City of Albuquerque Official Website, designed and developed by Real Time Solutions."
+				)
 			),
-		array(
-			"title" => "Reformat New Mexico Secretary of State Corporation Forms",
-			"dates" => "April 2013",
-			"details" => "In 2013, the filing, maintenance and retention of corporate records for the State of New Mexico changed hands from the NM Public Regulation Commission to the NM Secretary of State. As a part of the Real Time Solutions design team, I was charged with the reformatting and redesign of over 50 official corporation forms for the State of New Mexico. These forms include Articles of Incorporation, Articles of Organization, Annual Reports, Corporate Dissolutions, and other required filings as required by the State of New Mexico regarding establishment of formal business structure."
-		),
-		array(
-			"title" => "Kettlebells For Dummies",
-			"dates" => "July 2009",
-			"details" => "Provided Creative Direction for photo shoot production for the Kettlebells for Dummies book authored by Sarah Lurie and published by Wiley Publishing, Inc."
+			array(
+				"title" => "Reformat New Mexico Secretary of State Corporation Forms",
+				"organisation" => "Real Time Solutions",
+				"from" => "April 2013",
+				"to" => "April 2013",
+				"points" => array(
+					"In 2013, the filing, maintenance and retention of corporate records for the State of New Mexico changed hands from the NM Public Regulation Commission to the NM Secretary of State. As a part of the Real Time Solutions design team, I was charged with the reformatting and redesign of over 50 official corporation forms for the State of New Mexico. These forms include Articles of Incorporation, Articles of Organization, Annual Reports, Corporate Dissolutions, and other required filings as required by the State of New Mexico regarding establishment of formal business structure."
+				)
+			),
+			array(
+				"title" => "Kettlebells For Dummies",
+				"organisation" => "Iron Core LLC",
+				"from" => "May 2009",
+				"to" => "July 2009",
+				"points" => array(
+					"Provided Creative Direction for photo shoot production for the Kettlebells for Dummies book authored by Sarah Lurie and published by Wiley Publishing, Inc."
+				)
+			)
 		)
 	);
 
