@@ -38,7 +38,7 @@ class Rochelle {
 		array(
 			"type" => "Professional Interests",
 			"items" => array(
-				array("name" => "User eXperience Design"),
+				array("name" => "User Experience Design"),
 				array("name" => "User Interface Design"),
 				array("name" => "Web Design"),
 				array("name" => "Creative Direction")
