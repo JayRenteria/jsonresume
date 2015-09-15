@@ -14,11 +14,11 @@ class Jay {
 		"email" => "jay@jayrenteria.com",
 		"phone" => "+1 505.803.9324",
 		"website" => "http://www.jayrenteria.com",
-		"stars" => array("Full Stack Developer"),
+		"stars" => array("Front End Developer"),
 		"summary" => array("points" => array(
 			"Passionate and continuing to learn and grow in the world of development",
-			"Junior developer with experience in PHP, HTML5, CSS, Bootstrap, and JavaScript",
-			"Ready to further my skills and dive deeper into the world of technology",
+			"Focused on Front End Development, but have back end experience and can be an asset here as well.",
+			"Looking for somewhere to continue to grow and build awesome things.",
 		)),
 	);
 
@@ -35,6 +35,9 @@ class Jay {
 		array(
 			"type" => "Frameworks",
 			"items" => array(
+				array("name" => "AngularJS"),
+				array("name" => "BackboneJS"),
+				array("name" => "Laravel"),
 				array("name" => "Bootstrap"),
 				array("name" => "jQuery"),
 			)
@@ -43,6 +46,7 @@ class Jay {
 			"type" => "Tools",
 			"items" => array(
 				array("name" => "git"),
+				array("name" => "Grunt/Gulp"),
 				array("name" => "PhpStorm"),
 			)
 		),
@@ -56,6 +60,7 @@ class Jay {
 			"type" => "Servers",
 			"items" => array(
 				array("name" => "Apache"),
+				array("name" => "NGINX"),
 				array("name" => "OpenSSH"),
 				array("name" => "mySQL"),
 			)
@@ -65,24 +70,61 @@ class Jay {
 	public $education = array (
 		"show_gpa" => false,
 		"schools" => array(
+//			array(
+//				"degree" => "",
+//				"program" => "Deep Dive Coders",
+//				"institution" => "Central New Mexico Community College",
+//				"graduation_year" => 2015,
+//				"gpa" => ""
+//			),
 			array(
-				"degree" => "",
-				"program" => "Deep Dive Coders",
-				"institution" => "Central New Mexico Community College",
-				"graduation_year" => 2015,
-				"gpa" => ""
-			),
-			array(
-				"degree" => "Associates of Science (pursued)",
+				"degree" => "Associate of Science",
 				"major" => "Computer Science",
 				"institution" => "Central New Mexico Community College",
 				"years_attended" => "2012-2013",
+				"gpa" => ""
+			),
+			array(
+				"degree" => "Bachelor of Science",
+				"major" => "Computer Science",
+				"institution" => "University of New Mexico",
+				"years_attended" => "2011-2012",
 				"gpa" => ""
 			),
 		)
 	);
 
 	public $experience = array("items" => array(
+		array(
+			"title" => "Owner/Developer",
+			"organisation" => "Hermes Development",
+			"location" => "Albuquerque, NM",
+			"from" => "April 2015",
+			"to" => "Current",
+			"details" => array(
+				"Creating and maintaining clean and quality code for website/web apps.",
+				"Communicating and working with clients to determine the best possible solutions.",
+				"Work with two other business partners/developers in an Agile Development based setting.",
+				"Research technologies that would be most efficient for the project at hand."
+			),
+			"technology_used" => array("tools" => array(
+				array("name" => "HTML5"),
+				array("name" => "CSS3"),
+				array("name" => "JavaScript"),
+				array("name" => "PHP"),
+				array("name" => "Laravel"),
+				array("name" => "WordPress"),
+				array("name" => "AngularJS"),
+				array("name" => "BackboneJS"),
+				array("name" => "git"),
+				array("name" => "Grunt/Gulp"),
+				array("name" => "PHPStorm"),
+				array("name" => "Apache"),
+				array("name" => "mySQL"),
+				array("name" => "Agile Development"),
+			))
+		),
+
 		array(
 			"title" => "Tier II Epic Clinical Analyst",
 			"organisation" => "The Kemtah Group Inc",
@@ -102,22 +144,23 @@ class Jay {
 				array("name" => "Remote Support Tools"),
 			))
 		),
-		array(
-			"title" => "Resident Technician",
-			"organisation" => "Staples",
-			"location" => "Albuquerque, NM",
-			"from" => "April 2012",
-			"to" => "November 2013",
-			"details" => array(
-				"In charge of troubleshooting/diagnosing computers, recommending a solution, and then directly applying the fix.",
-				"In charge of making and carrying out on-site appointments to set up printers, networks, fax machines, or fixing computers in the customers home or business.",
-				"Provide support over the phone or through remote means such as, TeamViewer, to troubleshoot problems and apply software related repairs."
-			),
-			"technology_used" => array("tools" => array(
-				array("name" => "Windows Xp, Vista, 7 and 8"),
-				array("name" => "Mac OSX"),
-			))
-		)
+
+//		array(
+//			"title" => "Resident Technician",
+//			"organisation" => "Staples",
+//			"location" => "Albuquerque, NM",
+//			"from" => "April 2012",
+//			"to" => "November 2013",
+//			"details" => array(
+//				"In charge of troubleshooting/diagnosing computers, recommending a solution, and then directly applying the fix.",
+//				"In charge of making and carrying out on-site appointments to set up printers, networks, fax machines, or fixing computers in the customers home or business.",
+//				"Provide support over the phone or through remote means such as, TeamViewer, to troubleshoot problems and apply software related repairs."
+//			),
+//			"technology_used" => array("tools" => array(
+//				array("name" => "Windows Xp, Vista, 7 and 8"),
+//				array("name" => "Mac OSX"),
+//			))
+//		)
 	));
 }
 
